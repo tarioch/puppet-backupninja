@@ -79,6 +79,7 @@ define backupninja::duplicity (
   $keep = false,
   $bandwidthlimit = false,
   $sshoptions = false,
+  $desturl = false,
   $destdir = false,
   $desthost = false,
   $destuser = false,
